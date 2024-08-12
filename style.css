@@ -48,9 +48,10 @@ body {
 }
 
 /* nav section style */
-header{
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+header {
+    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
 }
+
 .fitness-container {
     justify-content: space-between;
     align-items: center;
@@ -120,28 +121,30 @@ header{
 
 .btn-primary {
     border-radius: 42px;
-    width: 224px;
+    width: 170px;
     height: 54px;
     font-weight: 600;
     font-size: 1.125rem;
     color: white;
-    /* border: 1px solid rgb(230, 83, 60); */
     border: none;
     margin-right: 15px;
+    margin-bottom: 15px;
 }
 
 .btn-secondary {
     border-radius: 42px;
-    width: 224px;
+    width: 170px;
     height: 54px;
     font-weight: 600;
     font-size: 1.125rem;
     color: white;
     background-color: rgba(255, 255, 255, 0);
     border: 1px solid white;
+    margin-bottom: 15px;
 
 }
-.banner-img-container{
+
+.banner-img-container {
     position: relative;
 }
 
@@ -152,19 +155,22 @@ header{
     backdrop-filter: blur(10px);
     padding: 15px;
     text-align: left;
-    
+
 }
-.position-notification-1{
+
+.position-notification-1 {
     position: absolute;
     right: -8%;
     top: 20%;
 }
-.position-notification-2{
-    position:absolute;
+
+.position-notification-2 {
+    position: absolute;
     left: -20%;
     bottom: 13%;
 }
-.banner-img-container .circle{
+
+.banner-img-container .circle {
     height: 30px;
     width: 30px;
     border-radius: 50%;
@@ -172,14 +178,17 @@ header{
     position: relative;
     top: 7px;
 }
-.notification2{
+
+.notification2 {
     align-items: center;
 }
+
 .notification-tile1 {
     color: white;
     font-size: 2.5rem;
     font-weight: bold;
 }
+
 .notification-tile2 {
     color: white;
     font-size: 1.5rem;
@@ -197,14 +206,27 @@ header{
         display: flex;
     }
 
-    .banner-container{
+    .banner-container {
         flex-direction: column;
     }
+
     .banner-title {
         font-size: 2.25rem;
     }
+
     .miama-font {
-        
         font-size: 5rem;
+    }
+    .position-notification-1 {
+        position: absolute;
+        transform: scale(0.8);
+        right: 0%;
+        top: 9%;
+    }
+    
+    .position-notification-2 {
+        position: absolute;
+        left: 0%;
+        bottom: 42%;
     }
 }
