@@ -146,6 +146,7 @@ header {
 
 .banner-img-container {
     position: relative;
+    margin-left: 50px;
 }
 
 .notification-btn {
@@ -196,45 +197,86 @@ header {
 }
 
 /* change habit style */
-.habit-container{
+.habit-container {
     margin-top: 100px;
 }
-.habit-text-container{
+
+.habit-text-container {
     text-align: center;
-    
+
 }
-.habit-title{
+
+.habit-title {
     font-weight: 900;
     font-size: 3rem;
     color: white;
 }
-.habit-description{
+
+.habit-description {
     font-size: 0.875rem;
     margin-top: 15px;
     margin-bottom: 50px;
 }
 
-.habit-img-card-container img{
+.habit-img-card-container img {
     border-radius: 50%;
     border: 3px solid rgb(53, 53, 53);
 }
-.habit-img-card-container{
+
+.habit-img-card-container {
     text-align: center;
     display: grid;
-    grid-template-columns: repeat(4 , 1fr);
+    grid-template-columns: repeat(4, 1fr);
     /* column-gap: 12.5%; */
 }
-.habit-img-card-container .title{
+
+.habit-img-card-container .title {
     font-size: 1.125rem;
     font-weight: 600;
     color: white;
     margin-top: 20px;
     margin-bottom: 6px;
 }
-.habit-img-card-container .description{
+
+.habit-img-card-container .description {
     font-weight: 400;
     font-size: 0.875rem;
 }
+
+/* run extra style */
+.extra-container {
+    box-sizing: border-box;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    align-items: center;
+    padding: 30px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.extra-text-container .title {
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+}
+
+.extra-text-container .description {
+    font-weight: 400;
+    font-size: 0.875rem;
+    margin-top: 14px;
+    margin-bottom: 34px;
+}
+
+.extra-img-container .image{
+    height: 312px;
+    width: 366px;
+    border-radius: 18px;
+    object-fit:none;
+    object-position:66% 30%;
+}
+
 /* Small device style */
 @media screen and (max-width: 576px) {
 
@@ -246,7 +288,9 @@ header {
         display: flex;
     }
 
-    .banner-container {
+    .banner-container,
+    .extra-container
+    {
         flex-direction: column;
     }
 
@@ -257,11 +301,12 @@ header {
     .miama-font {
         font-size: 5rem;
     }
+
     .btn-primary {
         width: 150px;
         font-size: 1rem;
     }
-    
+
     .btn-secondary {
         width: 150px;
         font-size: 1rem;
@@ -273,20 +318,42 @@ header {
         right: 0%;
         top: 9%;
     }
-    
+
     .position-notification-2 {
         position: absolute;
         left: 0%;
         bottom: 42%;
     }
-    .habit-container{
+
+    .habit-container {
         margin-top: 0;
     }
-    .habit-title{
+
+    .habit-title {
         font-size: 2rem;
     }
-    .habit-img-card-container{
+
+    .habit-img-card-container {
         grid-template-columns: repeat(1, 1fr);
         row-gap: 35px;
     }
+    /* .extra-img-container{
+        transform: scale(0.8);
+    } */
+    .extra-container {
+        padding-left: 30px;
+    }
+    .extra-img-container .image{
+        height: 170px; 
+        width: 300px;
+        border-radius: 18px;
+        object-fit:cover;
+        object-position:50% 50%;
+        /* transform: scale(0.35); */
+    }
+    .extra-text-container .btn-primary{
+        width: 100%;
+        margin-bottom: 30px;
+    }
 }
+
