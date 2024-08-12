@@ -49,7 +49,7 @@ body {
 
 /* nav section style */
 header {
-    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0.1) 100%);
 }
 
 .fitness-container {
@@ -195,6 +195,46 @@ header {
     font-weight: bold;
 }
 
+/* change habit style */
+.habit-container{
+    margin-top: 100px;
+}
+.habit-text-container{
+    text-align: center;
+    
+}
+.habit-title{
+    font-weight: 900;
+    font-size: 3rem;
+    color: white;
+}
+.habit-description{
+    font-size: 0.875rem;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.habit-img-card-container img{
+    border-radius: 50%;
+    border: 3px solid rgb(53, 53, 53);
+}
+.habit-img-card-container{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    /* column-gap: 12.5%; */
+}
+.habit-img-card-container .title{
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 6px;
+}
+.habit-img-card-container .description{
+    font-weight: 400;
+    font-size: 0.875rem;
+}
 /* Small device style */
 @media screen and (max-width: 576px) {
 
@@ -238,5 +278,15 @@ header {
         position: absolute;
         left: 0%;
         bottom: 42%;
+    }
+    .habit-container{
+        margin-top: 0;
+    }
+    .habit-title{
+        font-size: 2rem;
+    }
+    .habit-img-card-container{
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 35px;
     }
 }
