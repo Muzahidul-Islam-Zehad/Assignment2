@@ -277,6 +277,22 @@ header {
     object-position:66% 30%;
 }
 
+/* bmi calculator part 1 style */
+.bmi-text-container{
+    width: calc(100% - 26.7%);
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.bmi-text-container .title{
+    font-weight: 900;
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 15px;
+}
+.bmi-text-container .description{
+    font-size: 0.875rem;
+}
+
 /* Small device style */
 @media screen and (max-width: 576px) {
 
@@ -348,12 +364,16 @@ header {
         width: 300px;
         border-radius: 18px;
         object-fit:cover;
-        object-position:50% 50%;
+        /* object-position:-50px 0px; */
         /* transform: scale(0.35); */
     }
     .extra-text-container .btn-primary{
         width: 100%;
         margin-bottom: 30px;
+    }
+
+    .bmi-text-container{
+        width: calc(100% - 13%);
     }
 }
 
