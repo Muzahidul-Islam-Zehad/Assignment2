@@ -315,7 +315,7 @@ header {
     box-sizing: border-box;
     padding: 52px 0px;
     /* border: 2px solid red; */
-    justify-content: space-between;
+    justify-content:space-between;
 }
 
 .chart .title {
@@ -352,7 +352,9 @@ table {
 td {
     padding: 15px 24px;
 }
-
+.calculator{
+    width: 60%;
+}
 .calculator .title {
     color: white;
     font-weight: 900;
@@ -629,6 +631,7 @@ hr{
 
     .calculator {
         margin-top: 34px;
+        width: 100%;
     }
     .calculator .btn-primary {
         width: 60%;
