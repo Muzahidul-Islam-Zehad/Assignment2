@@ -129,6 +129,7 @@ header {
     border: none;
     margin-right: 15px;
     margin-bottom: 15px;
+    cursor: pointer;
 }
 
 .btn-secondary {
@@ -141,7 +142,7 @@ header {
     background-color: rgba(255, 255, 255, 0);
     border: 1px solid white;
     margin-bottom: 15px;
-
+    cursor: pointer;
 }
 
 .banner-img-container {
