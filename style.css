@@ -493,6 +493,8 @@ select option {
     padding: 66px 0px;
 }
 .footer-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
     justify-content: space-between;
 }
 .footer-brand .title{
@@ -548,8 +550,7 @@ hr{
 
     .banner-container,
     .extra-container,
-    .bmi-container,
-    .footer-container {
+    .bmi-container {
         flex-direction: column;
     }
 
@@ -629,11 +630,13 @@ hr{
     .calculator {
         margin-top: 34px;
     }
-
     .calculator .btn-primary {
         width: 60%;
     }
     .team-img-container{
         grid-template-columns: auto;
+    }
+    .footer-container{
+      grid-template-columns: auto;
     }
 }
