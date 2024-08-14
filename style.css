@@ -502,6 +502,7 @@ select option {
 .footer-brand .description{
     font-size: 0.875rem;
     margin-top: 20px;
+    margin-bottom: 30px;
 }
 .footer-about .title{
     color: white;
@@ -530,7 +531,7 @@ hr{
     color: rgba(255, 255, 255, 0.5);
     font-size: 1.25rem;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
 
 }
 /* Small device style */
@@ -546,7 +547,8 @@ hr{
 
     .banner-container,
     .extra-container,
-    .bmi-container {
+    .bmi-container,
+    .footer-container {
         flex-direction: column;
     }
 
