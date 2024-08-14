@@ -409,16 +409,18 @@ select option {
     margin-top: 14px;
     margin-bottom: 58px;
 }
-
-.team-img-container {
-    display: grid;
-    grid-template-columns: 325px 325px 325px;
-    gap: 30px;
-    justify-content:space-evenly;
+.team-img-bg{
     border-radius: 18px;
     background: rgba(255, 255, 255, 0.1);
-    padding: 30px 0px;
-    width: 100%;
+    padding: 20px;
+    
+}
+.team-img-container {
+    display: grid;
+    grid-template-columns:auto auto auto;
+    gap: 20px;
+    justify-content:center;
+    
 }
 
 .team-img-container .image {
@@ -427,6 +429,7 @@ select option {
     border-radius: 18px;
     overflow: hidden;
     position: relative;
+    
 }
 .fitler{
     filter: brightness(0.85);
@@ -566,6 +569,6 @@ select option {
         width: 60%;
     }
     .team-img-container{
-        grid-template-columns: 325px;
+        grid-template-columns: auto;
     }
 }
