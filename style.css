@@ -484,6 +484,38 @@ select option {
 .team-img-container .names .description{
     font-size: 0.875rem;
 }
+
+/* footer style */
+.footer{
+    margin-top: 88px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 66px 0px;
+}
+.footer-container{
+    justify-content: space-between;
+}
+.footer-brand .title{
+    font-size: 4.375rem;
+    font-weight: 800;
+    font-style: italic;
+}
+.footer-brand .description{
+    font-size: 0.875rem;
+}
+.footer-about .title{
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.footer-about li{
+    font-size: 1.5rem; 
+    list-style: none; 
+}
+.footer-about a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    ;
+}
 /* Small device style */
 @media screen and (max-width: 576px) {
 
