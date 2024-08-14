@@ -501,20 +501,37 @@ select option {
 }
 .footer-brand .description{
     font-size: 0.875rem;
+    margin-top: 20px;
 }
 .footer-about .title{
     color: white;
     font-size: 2rem;
     font-weight: 700;
+    margin-bottom: 39px;
 }
 .footer-about li{
     font-size: 1.5rem; 
     list-style: none; 
+    margin-bottom: 20px;
 }
 .footer-about a{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.5);
-    ;
+}
+hr{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+
+}
+.hr{
+    margin-top: 79px;
+    margin-bottom: 36px;
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.25rem;
+    text-align: center;
+    margin-bottom: 30px;
+
 }
 /* Small device style */
 @media screen and (max-width: 576px) {
