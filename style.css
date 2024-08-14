@@ -412,12 +412,13 @@ select option {
 
 .team-img-container {
     display: grid;
-    grid-template-columns: 25% 25% 25%;
+    grid-template-columns: 325px 325px 325px;
     gap: 30px;
     justify-content:space-evenly;
     border-radius: 18px;
     background: rgba(255, 255, 255, 0.1);
     padding: 30px 0px;
+    width: 100%;
 }
 
 .team-img-container .image {
@@ -565,6 +566,6 @@ select option {
         width: 60%;
     }
     .team-img-container{
-        grid-template-columns: 90%;
+        grid-template-columns: 325px;
     }
 }
