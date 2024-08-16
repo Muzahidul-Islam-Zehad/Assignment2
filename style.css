@@ -575,6 +575,9 @@ hr{
     align-content: center;
     cursor: pointer;
 }
+.plan-card-container .card .description{
+    font-size: 1.2rem;
+}
 .plan-card-container .card2{
     position: relative;
     overflow: hidden;
