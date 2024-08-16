@@ -573,6 +573,7 @@ hr{
     height: 200px;
     text-align: center;
     align-content: center;
+    cursor: pointer;
 }
 .plan-card-container .card2{
     position: relative;
